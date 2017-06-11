@@ -1,0 +1,24 @@
+//
+//  main.swift
+//  Swift4CommandLine
+//
+//  Created by 刘乃彬 on 2017/6/10.
+//  Copyright © 2017年 刘乃彬. All rights reserved.
+//
+
+import Foundation
+
+print("Hello, World!")
+
+// Chapter 1 Basics
+Chapter1Basics.run()
+
+// Chapter 2 Basic Operators
+Chapter2BasicOperators.run()
+
+// Chapter 3 Strings and Characters
+Chapter3StringsAndCharacters.run()
+
+// Chapter 4 Collection Types
+Chapter4CollectionTypes.run()
+
