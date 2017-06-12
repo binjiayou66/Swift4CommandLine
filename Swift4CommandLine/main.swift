@@ -28,5 +28,6 @@ Chapter5ControlFlow.run()
 // Chapter 6 Functions
 Chapter6Functions.run()
 
-
+// Chapter 7 Closures
+Chapter7Closures.run()
 

@@ -14,6 +14,7 @@
 		3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */; };
 		9D44CD281EEE6E450008B2F3 /* Chapter5ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */; };
 		9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */; };
+		9D44CD2C1EEEA67F0008B2F3 /* Chapter7Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4CollectionTypes.swift; sourceTree = "<group>"; };
 		9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5ControlFlow.swift; sourceTree = "<group>"; };
 		9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6Functions.swift; sourceTree = "<group>"; };
+		9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter7Closures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */,
 				9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */,
 				9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */,
+				9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */,
 			);
 			path = Swift4CommandLine;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				3728ED1D1EEBC88200582BD8 /* Chapter2BasicOperators.swift in Sources */,
 				3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */,
 				9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */,
+				9D44CD2C1EEEA67F0008B2F3 /* Chapter7Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
