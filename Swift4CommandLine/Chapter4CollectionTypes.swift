@@ -10,6 +10,7 @@ import Cocoa
 
 class Chapter4CollectionTypes: NSObject {
     static public func run() {
+        // Value Type and Reference Type
         var a = [1, 2, 3]
         var b = a
         var c = a
@@ -90,6 +91,107 @@ class Chapter4CollectionTypes: NSObject {
         }
         
         // Sets
-        // A set stores distinct values of the same type in a collection with no defined ordering. You can use a set instead of an array when the order of items is not important, or when you need to ensure that an item only appears once.
+        // A set stores <<distinct values>> of the <<same type>> in a collection with <<no defined ordering>>. You can use a set instead of an array when the order of items is not important, or when you need to ensure that an item only appears once.
+        // A type must be <<hashable>> in order to be stored in a set.
+        // A set type cannot be inferred from an array literal alone, so the type Set must be explicitly declared.
+        let emptySet1 = Set<String>()
+        let emptySet2: Set<String> = []
+        // Functions Show
+        var favoriteGenres: Set = ["Rock", "Classical", "Hip hop"]
+        // count
+        print("favoriteGenres has \(favoriteGenres.count) items.")
+        // isEmpty
+        if favoriteGenres.isEmpty {
+            print("favoriteGenres is empty.")
+        }
+        // contains
+        if favoriteGenres.contains("Rock") {
+            print("I like Rock.")
+        }
+        // insert
+        let insertResult = favoriteGenres.insert("Jazz")
+        if insertResult.inserted {
+            print("\(insertResult.inserted), \(insertResult.memberAfterInsert)")
+        }
+        // remove
+        if let removedGenre = favoriteGenres.remove("Rock") {
+            print("\(removedGenre)? I'm over it.")
+        }else {
+            print("I never much cared for that.")
+        }
+        // Iterating
+        for genre in favoriteGenres {
+            print("\(genre)")
+        }
+        // function sorted returns the set’s elements as an array sorted using the < operator.
+        for genre in favoriteGenres.sorted() {
+            print("\(genre)")
+        }
+        // Performing Set Operations
+        // Here's a picture that might help you understand.(https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Art/setVennDiagram_2x.png)
+        let setA: Set = [1, 2, 3, 4, 5]
+        let setB: Set = [4, 5, 6, 7, 8]
+        // intersection
+        let abResult1 = setA.intersection(setB)
+        // symmetricDifference
+        let abResult2 = setA.symmetricDifference(setB)
+        // union
+        let abResult3 = setA.union(setB)
+        // subtracting
+        let abResult4 = setA.subtracting(setB)
+        // sub
+        let abResult5 = setA.isSubset(of: setB)
+        // super
+        let abResult6 = setA.isSuperset(of: setB)
+        // disjoint
+        let abResult7 = setA.isDisjoint(with: setB)
+        
+        // Dictionaries
+        // A dictionary stores associations between <<keys of the same type>> and <<values of the same type>> in a collection with <<no defined ordering>>. Each value is associated with a <<unique key>>, which acts as an identifier for that value within the dictionary. Unlike items in an array, items in a dictionary do not have a specified order. You use a dictionary when you need to look up values based on their identifier, in much the same way that a real-world dictionary is used to look up the definition for a particular word.
+        // A dictionary Key type must conform to the Hashable protocol, like a set’s value type.
+        let emptyDic1 = Dictionary<String, String>()
+        // Preferred
+        let emptyDic2 = [String: String]()
+        let emptyDic3: Dictionary<String, String> = [:]
+        let emptyDic4: [String: String] = [:]
+        // inferred type
+        var mainDic = [1:"one", 2:"two"]
+        
+        // Accessing and Modifying a Dictionary
+        // count
+        print("mainDic contains \(mainDic.count) items.")
+        // isEmpty
+        // add
+        mainDic[3] = "three"
+        // change
+        mainDic[2] = "new two"
+        // or change like this
+        if let oldValue = mainDic.updateValue("update three", forKey: 3) {
+            print("The old value for 3 was \(oldValue).")
+        }
+        // read
+        if let value = mainDic[3] {
+            print("Value is \(value).")
+        } else {
+            print("There is not value with that key.")
+        }
+        // delete
+        mainDic[3] = nil
+        // or delete like this
+        if let removedValue = mainDic.removeValue(forKey: 2) {
+            print("removedValue: \(removedValue).")
+        } else {
+            print("The mainDic dictionary does not contain a value for 2.")
+        }
+        // Iterating
+        for (key, value) in mainDic {
+            print("\(key): \(value)")
+        }
+        for key in mainDic.keys {
+            print("\(key): \(mainDic[key] ?? "Default Value")")
+        }
+        for value in mainDic.values {
+            print("value: \(value)")
+        }
     }
 }

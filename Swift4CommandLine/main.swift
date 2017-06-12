@@ -22,3 +22,11 @@ Chapter3StringsAndCharacters.run()
 // Chapter 4 Collection Types
 Chapter4CollectionTypes.run()
 
+// Chapter 5 Control Flow
+Chapter5ControlFlow.run()
+
+// Chapter 6 Functions
+Chapter6Functions.run()
+
+
+

@@ -12,6 +12,8 @@
 		3728ED1D1EEBC88200582BD8 /* Chapter2BasicOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728ED1C1EEBC88200582BD8 /* Chapter2BasicOperators.swift */; };
 		3728ED1F1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728ED1E1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift */; };
 		3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */; };
+		9D44CD281EEE6E450008B2F3 /* Chapter5ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */; };
+		9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		3728ED1C1EEBC88200582BD8 /* Chapter2BasicOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2BasicOperators.swift; sourceTree = "<group>"; };
 		3728ED1E1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3StringsAndCharacters.swift; sourceTree = "<group>"; };
 		3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4CollectionTypes.swift; sourceTree = "<group>"; };
+		9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5ControlFlow.swift; sourceTree = "<group>"; };
+		9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				3728ED1C1EEBC88200582BD8 /* Chapter2BasicOperators.swift */,
 				3728ED1E1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift */,
 				3728ED201EEBD87300582BD8 /* Chapter4CollectionTypes.swift */,
+				9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */,
+				9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */,
 			);
 			path = Swift4CommandLine;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 				3728ED1F1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift in Sources */,
 				3728ED1B1EEB951500582BD8 /* Chapter1Basics.swift in Sources */,
 				3728ED141EEB94B900582BD8 /* main.swift in Sources */,
+				9D44CD281EEE6E450008B2F3 /* Chapter5ControlFlow.swift in Sources */,
 				3728ED1D1EEBC88200582BD8 /* Chapter2BasicOperators.swift in Sources */,
 				3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */,
+				9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 				3728ED191EEB94B900582BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
