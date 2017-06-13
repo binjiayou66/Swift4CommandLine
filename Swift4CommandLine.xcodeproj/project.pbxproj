@@ -15,6 +15,7 @@
 		9D44CD281EEE6E450008B2F3 /* Chapter5ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */; };
 		9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */; };
 		9D44CD2C1EEEA67F0008B2F3 /* Chapter7Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */; };
+		9D7454F61EEFE0760000A2D3 /* Chapter8Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5ControlFlow.swift; sourceTree = "<group>"; };
 		9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6Functions.swift; sourceTree = "<group>"; };
 		9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter7Closures.swift; sourceTree = "<group>"; };
+		9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter8Enumerations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				9D44CD271EEE6E450008B2F3 /* Chapter5ControlFlow.swift */,
 				9D44CD291EEE80F80008B2F3 /* Chapter6Functions.swift */,
 				9D44CD2B1EEEA67F0008B2F3 /* Chapter7Closures.swift */,
+				9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */,
 			);
 			path = Swift4CommandLine;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7454F61EEFE0760000A2D3 /* Chapter8Enumerations.swift in Sources */,
 				3728ED1F1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift in Sources */,
 				3728ED1B1EEB951500582BD8 /* Chapter1Basics.swift in Sources */,
 				3728ED141EEB94B900582BD8 /* main.swift in Sources */,

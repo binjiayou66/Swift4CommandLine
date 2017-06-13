@@ -31,3 +31,5 @@ Chapter6Functions.run()
 // Chapter 7 Closures
 Chapter7Closures.run()
 
+// Chapter 8 Enumerations
+Chapter8Enumerations.run()
