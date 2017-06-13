@@ -33,3 +33,6 @@ Chapter7Closures.run()
 
 // Chapter 8 Enumerations
 Chapter8Enumerations.run()
+
+// Chapter 9 Classes and Structures
+Chapter9ClassesAndStructures.run()
