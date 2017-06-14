@@ -18,6 +18,7 @@
 		9D7454F61EEFE0760000A2D3 /* Chapter8Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */; };
 		9D7454FA1EF003740000A2D3 /* Chapter9ClassesAndStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7454F91EF003740000A2D3 /* Chapter9ClassesAndStructures.swift */; };
 		9DBB58511EF0DD4100B26973 /* Chapter10Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB58501EF0DD4100B26973 /* Chapter10Properties.swift */; };
+		9DBB58531EF1476F00B26973 /* Chapter11Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter8Enumerations.swift; sourceTree = "<group>"; };
 		9D7454F91EF003740000A2D3 /* Chapter9ClassesAndStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter9ClassesAndStructures.swift; sourceTree = "<group>"; };
 		9DBB58501EF0DD4100B26973 /* Chapter10Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10Properties.swift; sourceTree = "<group>"; };
+		9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11Methods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				9D7454F51EEFE0760000A2D3 /* Chapter8Enumerations.swift */,
 				9D7454F91EF003740000A2D3 /* Chapter9ClassesAndStructures.swift */,
 				9DBB58501EF0DD4100B26973 /* Chapter10Properties.swift */,
+				9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */,
 			);
 			path = Swift4CommandLine;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */,
 				9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */,
 				9D44CD2C1EEEA67F0008B2F3 /* Chapter7Closures.swift in Sources */,
+				9DBB58531EF1476F00B26973 /* Chapter11Methods.swift in Sources */,
 				9DBB58511EF0DD4100B26973 /* Chapter10Properties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

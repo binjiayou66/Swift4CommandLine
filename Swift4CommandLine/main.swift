@@ -39,3 +39,6 @@ Chapter9ClassesAndStructures.run()
 
 // Chapter 10 Properties
 Chapter10Properties.run()
+
+// Chapter 11 Methods
+Chapter11Methods.run()
