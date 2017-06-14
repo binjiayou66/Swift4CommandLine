@@ -38,6 +38,64 @@ class Chapter9ClassesAndStructures: NSObject {
         // Choosing Between Classes and Structures
         
         // Assignment and Copy Behavior for Strings, Arrays, and Dictionaries
+        
+        // Create instances
+        // Structures and classes both use initializer syntax for new instances.
+        // * Structures is value type. If you create a constant structure, you can not change it's member value.
+        // * Classes is reference type. You can modify it's properties, even though you use "let" to create an instance of this class.
+        var aResolution = Resolution()
+        let aVideoMode = VideoMode()
+        // Accessing Properties
+        aResolution.width = 100
+        print("aResolution.width = \(aResolution.width)")
+        aVideoMode.resolution = aResolution
+        print("aVideoMode.resolution.width = \(aVideoMode.resolution.width)")
+        
+        // All structures have an automatically-generated memberwise initializer:
+        let _ = Resolution.init(width: 100, height: 100)
+        // Unlike structures, class instances do not receive a default memberwise initializer.
+        
+        // Structures and Enumerations Are Value Types
+        let hd = Resolution(width: 1920, height: 1080)
+        var cinema = hd
+        cinema.width = 2048
+        print("cinema is now \(cinema.width) pixels wide")
+        print("hd is still \(hd.width) pixels wide")
+        // Classes Are Reference Types
+        let tenEighty = VideoMode()
+        tenEighty.resolution = hd
+        tenEighty.interlaced = true
+        tenEighty.name = "1080i"
+        tenEighty.frameRate = 25.0
+        
+        let alsoTenEighty = tenEighty
+        alsoTenEighty.frameRate = 30.0
+        
+        print("The frameRate property of alsoTenEighty is now \(alsoTenEighty.frameRate)")
+        print("The frameRate property of tenEighty is now \(tenEighty.frameRate)")
+        
+        // “Identical to” means that two constants or variables of class type refer to exactly the same class instance.
+        // “Equal to” means that two instances are considered “equal” or “equivalent” in value, for some appropriate meaning of “equal”, as defined by the type’s designer.
+        if tenEighty === alsoTenEighty {
+            print("tenEighty and alsoTenEighty refer to the same VideoMode instance.")
+        }
+        
+        // Pointers
+        // If you have experience with C, C++, or Objective-C, you may know that these languages use pointers to refer to addresses in memory. A Swift constant or variable that refers to an instance of some reference type is similar to a pointer in C, but is not a direct pointer to an address in memory, and does not require you to write an asterisk (*) to indicate that you are creating a reference. Instead, these references are defined like any other constant or variable in Swift.
+        
+        
+        // Choosing Between Classes and Structures
+        // You can use both classes and structures to define custom data types to use as the building blocks of your program’s code. However, structure instances are always passed by value, and class instances are always passed by reference. This means that they are suited to different kinds of tasks. As you consider the data constructs and functionality that you need for a project, decide whether each data construct should be defined as a class or as a structure.
+        
+        // As a general guideline, consider creating a structure when one or more of these conditions apply:
+        // (1) The structure’s primary purpose is to encapsulate a few relatively simple data values.
+        // (2) It is reasonable to expect that the encapsulated values will be copied rather than referenced when you assign or pass around an instance of that structure.
+        // (3) Any properties stored by the structure are themselves value types, which would also be expected to be copied rather than referenced.
+        // (4) The structure does not need to inherit properties or behavior from another existing type.
+        
+        // For examples, Size, Range, Point and so on.
+        
+        // In all other cases, define a class, and create instances of that class to be managed and passed by reference. In practice, this means that most custom data constructs should be classes, not structures.
     }
 }
 

@@ -36,3 +36,6 @@ Chapter8Enumerations.run()
 
 // Chapter 9 Classes and Structures
 Chapter9ClassesAndStructures.run()
+
+// Chapter 10 Properties
+Chapter10Properties.run()
