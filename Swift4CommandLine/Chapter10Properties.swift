@@ -2,7 +2,7 @@
 //  Chapter10Properties.swift
 //  Swift4CommandLine
 //
-//  Created by 123 on 2017/6/14.
+//  Created by 刘乃彬 on 2017/6/14.
 //  Copyright © 2017年 刘乃彬. All rights reserved.
 //
 
@@ -20,6 +20,10 @@ class Chapter10Properties: NSObject {
         // (7) Type Properties
         
         // Stored Properties
+        // Properties in a type have three states:
+        // (1) Declare a property and initialize it
+        // (2) Declare a property and initialize it in init function
+        // (3) Declare a optional property
         struct FixedLengthRange {
             var firstValue: Int
             let length: Int

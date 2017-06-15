@@ -42,3 +42,6 @@ Chapter10Properties.run()
 
 // Chapter 11 Methods
 Chapter11Methods.run()
+
+// Chapter 12 Subscripts
+Chapter12Subscripts.run()
