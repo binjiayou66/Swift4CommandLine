@@ -45,3 +45,6 @@ Chapter11Methods.run()
 
 // Chapter 12 Subscripts
 Chapter12Subscripts.run()
+
+// Chapter 13 Inheritance
+Chapter13Inheritance.run()
