@@ -10,6 +10,12 @@ import Cocoa
 
 class Chapter25AdvancedOperators: NSObject {
     static public func run() {
+        // Advanced Operators
+        // (1) Bitwise Operators
+        // (2) Overflow Operators
+        // (3) Precedence and Associativity
+        // (4) Operator Methods
+        // (5) Custom Operators
         
     }
 }

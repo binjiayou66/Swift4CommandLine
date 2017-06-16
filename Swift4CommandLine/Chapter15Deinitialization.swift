@@ -10,6 +10,8 @@ import Cocoa
 
 class Chapter15Deinitialization: NSObject {
     static public func run() {
-        
+        // Deinitialization
+        // (1) How Deinitialization Works
+        // (2) Deinitializers in Action
     }
 }

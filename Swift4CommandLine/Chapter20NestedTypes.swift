@@ -10,6 +10,9 @@ import Cocoa
 
 class Chapter20NestedTypes: NSObject {
     static public func run() {
+        // Nested Types
+        // (1) Nested Types in Action
+        // (2) Referring to Nested Types
         
     }
 }
