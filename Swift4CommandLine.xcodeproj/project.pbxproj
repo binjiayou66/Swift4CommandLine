@@ -21,6 +21,18 @@
 		9D7454FA1EF003740000A2D3 /* Chapter9ClassesAndStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7454F91EF003740000A2D3 /* Chapter9ClassesAndStructures.swift */; };
 		9DBB58511EF0DD4100B26973 /* Chapter10Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB58501EF0DD4100B26973 /* Chapter10Properties.swift */; };
 		9DBB58531EF1476F00B26973 /* Chapter11Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */; };
+		9DC8A21A1EF36C4700C72821 /* Chapter14Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2191EF36C4700C72821 /* Chapter14Initialization.swift */; };
+		9DC8A21C1EF36C5C00C72821 /* Chapter15Deinitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A21B1EF36C5C00C72821 /* Chapter15Deinitialization.swift */; };
+		9DC8A21E1EF36C7200C72821 /* Chapter16ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A21D1EF36C7200C72821 /* Chapter16ARC.swift */; };
+		9DC8A2201EF36C8D00C72821 /* Chapter17OptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A21F1EF36C8D00C72821 /* Chapter17OptionalChaining.swift */; };
+		9DC8A2221EF36CAC00C72821 /* Chapter18ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2211EF36CAC00C72821 /* Chapter18ErrorHandling.swift */; };
+		9DC8A2241EF36CC000C72821 /* Chapter19TypeCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2231EF36CC000C72821 /* Chapter19TypeCasting.swift */; };
+		9DC8A2261EF36CD300C72821 /* Chapter20NestedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2251EF36CD300C72821 /* Chapter20NestedTypes.swift */; };
+		9DC8A2281EF36CE300C72821 /* Chapter21Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2271EF36CE300C72821 /* Chapter21Extensions.swift */; };
+		9DC8A22A1EF36CF600C72821 /* Chapter22Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A2291EF36CF600C72821 /* Chapter22Protocols.swift */; };
+		9DC8A22C1EF36D0700C72821 /* Chapter23Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A22B1EF36D0700C72821 /* Chapter23Generics.swift */; };
+		9DC8A22E1EF36D1900C72821 /* Chapter24AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A22D1EF36D1900C72821 /* Chapter24AccessControl.swift */; };
+		9DC8A2301EF36D2C00C72821 /* Chapter25AdvancedOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8A22F1EF36D2C00C72821 /* Chapter25AdvancedOperators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +63,18 @@
 		9D7454F91EF003740000A2D3 /* Chapter9ClassesAndStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter9ClassesAndStructures.swift; sourceTree = "<group>"; };
 		9DBB58501EF0DD4100B26973 /* Chapter10Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10Properties.swift; sourceTree = "<group>"; };
 		9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11Methods.swift; sourceTree = "<group>"; };
+		9DC8A2191EF36C4700C72821 /* Chapter14Initialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter14Initialization.swift; sourceTree = "<group>"; };
+		9DC8A21B1EF36C5C00C72821 /* Chapter15Deinitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter15Deinitialization.swift; sourceTree = "<group>"; };
+		9DC8A21D1EF36C7200C72821 /* Chapter16ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter16ARC.swift; sourceTree = "<group>"; };
+		9DC8A21F1EF36C8D00C72821 /* Chapter17OptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter17OptionalChaining.swift; sourceTree = "<group>"; };
+		9DC8A2211EF36CAC00C72821 /* Chapter18ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter18ErrorHandling.swift; sourceTree = "<group>"; };
+		9DC8A2231EF36CC000C72821 /* Chapter19TypeCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter19TypeCasting.swift; sourceTree = "<group>"; };
+		9DC8A2251EF36CD300C72821 /* Chapter20NestedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter20NestedTypes.swift; sourceTree = "<group>"; };
+		9DC8A2271EF36CE300C72821 /* Chapter21Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter21Extensions.swift; sourceTree = "<group>"; };
+		9DC8A2291EF36CF600C72821 /* Chapter22Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter22Protocols.swift; sourceTree = "<group>"; };
+		9DC8A22B1EF36D0700C72821 /* Chapter23Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter23Generics.swift; sourceTree = "<group>"; };
+		9DC8A22D1EF36D1900C72821 /* Chapter24AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter24AccessControl.swift; sourceTree = "<group>"; };
+		9DC8A22F1EF36D2C00C72821 /* Chapter25AdvancedOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter25AdvancedOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,18 @@
 				9DBB58521EF1476F00B26973 /* Chapter11Methods.swift */,
 				9D0CEA921EF238B90037A218 /* Chapter12Subscripts.swift */,
 				9D0CEA941EF27BF30037A218 /* Chapter13Inheritance.swift */,
+				9DC8A2191EF36C4700C72821 /* Chapter14Initialization.swift */,
+				9DC8A21B1EF36C5C00C72821 /* Chapter15Deinitialization.swift */,
+				9DC8A21D1EF36C7200C72821 /* Chapter16ARC.swift */,
+				9DC8A21F1EF36C8D00C72821 /* Chapter17OptionalChaining.swift */,
+				9DC8A2211EF36CAC00C72821 /* Chapter18ErrorHandling.swift */,
+				9DC8A2231EF36CC000C72821 /* Chapter19TypeCasting.swift */,
+				9DC8A2251EF36CD300C72821 /* Chapter20NestedTypes.swift */,
+				9DC8A2271EF36CE300C72821 /* Chapter21Extensions.swift */,
+				9DC8A2291EF36CF600C72821 /* Chapter22Protocols.swift */,
+				9DC8A22B1EF36D0700C72821 /* Chapter23Generics.swift */,
+				9DC8A22D1EF36D1900C72821 /* Chapter24AccessControl.swift */,
+				9DC8A22F1EF36D2C00C72821 /* Chapter25AdvancedOperators.swift */,
 			);
 			path = Swift4CommandLine;
 			sourceTree = "<group>";
@@ -158,19 +194,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC8A21E1EF36C7200C72821 /* Chapter16ARC.swift in Sources */,
+				9DC8A2241EF36CC000C72821 /* Chapter19TypeCasting.swift in Sources */,
+				9DC8A22A1EF36CF600C72821 /* Chapter22Protocols.swift in Sources */,
 				9D7454FA1EF003740000A2D3 /* Chapter9ClassesAndStructures.swift in Sources */,
+				9DC8A2301EF36D2C00C72821 /* Chapter25AdvancedOperators.swift in Sources */,
 				9D7454F61EEFE0760000A2D3 /* Chapter8Enumerations.swift in Sources */,
+				9DC8A2281EF36CE300C72821 /* Chapter21Extensions.swift in Sources */,
 				9D0CEA951EF27BF30037A218 /* Chapter13Inheritance.swift in Sources */,
 				3728ED1F1EEBD25C00582BD8 /* Chapter3StringsAndCharacters.swift in Sources */,
 				3728ED1B1EEB951500582BD8 /* Chapter1Basics.swift in Sources */,
+				9DC8A2201EF36C8D00C72821 /* Chapter17OptionalChaining.swift in Sources */,
+				9DC8A21A1EF36C4700C72821 /* Chapter14Initialization.swift in Sources */,
 				3728ED141EEB94B900582BD8 /* main.swift in Sources */,
+				9DC8A2261EF36CD300C72821 /* Chapter20NestedTypes.swift in Sources */,
 				9D0CEA931EF238B90037A218 /* Chapter12Subscripts.swift in Sources */,
+				9DC8A21C1EF36C5C00C72821 /* Chapter15Deinitialization.swift in Sources */,
+				9DC8A2221EF36CAC00C72821 /* Chapter18ErrorHandling.swift in Sources */,
 				9D44CD281EEE6E450008B2F3 /* Chapter5ControlFlow.swift in Sources */,
 				3728ED1D1EEBC88200582BD8 /* Chapter2BasicOperators.swift in Sources */,
 				3728ED211EEBD87300582BD8 /* Chapter4CollectionTypes.swift in Sources */,
 				9D44CD2A1EEE80F80008B2F3 /* Chapter6Functions.swift in Sources */,
 				9D44CD2C1EEEA67F0008B2F3 /* Chapter7Closures.swift in Sources */,
 				9DBB58531EF1476F00B26973 /* Chapter11Methods.swift in Sources */,
+				9DC8A22E1EF36D1900C72821 /* Chapter24AccessControl.swift in Sources */,
+				9DC8A22C1EF36D0700C72821 /* Chapter23Generics.swift in Sources */,
 				9DBB58511EF0DD4100B26973 /* Chapter10Properties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
