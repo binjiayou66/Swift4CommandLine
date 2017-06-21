@@ -104,7 +104,7 @@ class Chapter16ARC: NSObject {
         print(html2!.asHTML())
         html2 = nil
         
-        print("End.")
+        print("End of Chapter 16.")
     }
 }
 

@@ -38,6 +38,7 @@ class Chapter6Functions: NSObject {
         // Functions Without Parameters
         // Functions With Multiple Parameters
         // Functions Without Return Values
+        // <<Strictly speaking, a function witout return values does still return a value, even though no return value is defined. Functions without a defined return type return a special value of type Void. This is simply an empty tuple, which is written as ().>>
         // Functions with Multiple Return Values (Tuple)
         // Optional Tuple Return Types
         func minMax(array: [Int]) -> (min: Int, max: Int)? {
