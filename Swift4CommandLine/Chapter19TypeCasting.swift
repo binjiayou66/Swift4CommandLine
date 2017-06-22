@@ -51,26 +51,23 @@ class Chapter19TypeCasting: NSObject {
         }
         // Note:
         /*
-         as
-         （1）从派生类转换为基类，向上转型（upcasts）
+         <<as>>
+         >>1 Upcasting, from subclass to superclass
          class Animal {}
          class Cat: Animal {}
          let cat = Cat()
          let animal = cat as Animal
-         （2）消除二义性，数值类型转换
-         
+         >>2 Explicit type
          let num1 = 42 as CGFloat
          let num2 = 42 as Int
          let num3 = 42.5 as Int
          let num4 = (42 / 2) as Double
-         （3）switch 语句中进行模式匹配
-         如果不知道一个对象是什么类型，你可以通过switch语法检测它的类型，并且尝试在不同的情况下使用对应的类型进行相应的处理。
-         
+         >>3 switch statement
          switch animal {
          case let cat as Cat:
-         print("如果是Cat类型对象，则做相应处理")
+         print("If it's an instance of Cat, then do something.")
          case let dog as Dog:
-         print("如果是Dog类型对象，则做相应处理")
+         print("If it's an instance of Dog, then do something.")
          default: break
          }
          */
