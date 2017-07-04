@@ -198,7 +198,7 @@ struct FullyStack<Element>: Container {
 }
 
 // Extending an Existing Type to Specify an Associated Type
-extension Array: Container {}
+// extension Array: Container {}
 
 // Using Type Annotations to Constrain an Associated Type
 protocol AnotherContainer {
